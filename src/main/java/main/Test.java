@@ -10,7 +10,8 @@ package main;
  * @author julit
  */
 public class Test {
-    public Test() {
-        
+    public int num;
+    public Test(int num) {
+        this.num = num;
     }
 }
